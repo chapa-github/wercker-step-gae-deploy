@@ -1,0 +1,24 @@
+name: gcp-gae-deploy
+version: 1.0.0
+summary: deploy to google app engine.
+tags:
+  - gae
+  - google app engine
+  - java
+  - deploy
+properties:
+  - name: project
+    type: string
+    required: true
+  - name: account
+    type: string
+    required: true
+  - name: service
+    type: string
+    required: false
+  - name: credential
+    type: string
+    required: true
+  - name: env_file
+    type: string
+    required: true
