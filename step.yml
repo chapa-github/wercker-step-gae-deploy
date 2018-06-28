@@ -22,3 +22,10 @@ properties:
   - name: env_file
     type: string
     required: true
+  - name: gs_bucket
+    type: string
+    required: true
+  - name: old_version_clean
+    type: boolean
+    required: true
+    default: false
